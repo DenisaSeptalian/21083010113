@@ -1,0 +1,11 @@
+1.download script+musik dulu di link berikut:
+https://drive.google.com/drive/u/0/folders/1-4Bl-RcuGcg9zN_caYvkyqjSGn0h1yvw
+
+2.pastikan sudah mengisntall python-vlc cmd maupun terminal linux
+mekanisnme:
+#harus install
+pip install python-vlc
+
+#import modul
+import vlc
+vlc.MediaPlayer("music_everywhere.mp3").play()
